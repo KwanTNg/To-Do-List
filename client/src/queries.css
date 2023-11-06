@@ -1,0 +1,107 @@
+/* 1rem = 16px */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+@media (max-width: 1344px) {
+  .app {
+    width: 800px;
+  }
+
+  .task-title {
+    width: 300px;
+  }
+
+  .outer-bar {
+    width: 200px;
+    height: 14px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 7px;
+    overflow: hidden;
+  }
+}
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+@media (max-width: 1200px) {
+  .app {
+    width: 800px;
+  }
+
+  .task-title {
+    width: 300px;
+  }
+
+  .outer-bar {
+    width: 200px;
+    height: 14px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 7px;
+    overflow: hidden;
+  }
+}
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+@media (max-width: 944px) {
+  .app {
+    width: 640px;
+  }
+
+  .task-title {
+    width: 160px;
+  }
+
+  .outer-bar {
+    width: 200px;
+    height: 12px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 7px;
+    overflow: hidden;
+  }
+}
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+@media (max-width: 704px) {
+  .app {
+    width: 500px;
+  }
+
+  .task-title {
+    width: 90px;
+  }
+
+  .outer-bar {
+    width: 180px;
+    height: 12px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 7px;
+    overflow: hidden;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+@media (max-width: 544px) {
+  .app {
+    width: 320px;
+  }
+
+  .task-title {
+    width: 60px;
+  }
+
+  .outer-bar {
+    width: 80px;
+    height: 10px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 7px;
+    overflow: hidden;
+  }
+
+  .list-header h1 {
+    font-size: 1em;
+  }
+}
